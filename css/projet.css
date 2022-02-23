@@ -1,0 +1,42 @@
+/* Page Projet */
+h2{
+    text-decoration: none;
+}
+
+section#section_projet {
+    height: 100%;
+    justify-content: center;
+    text-align: justify;
+}
+
+section#section_projet .projet{
+    padding-bottom: 1%;
+}
+
+section#section_projet .projet .img{
+    margin: 3rem 0 2rem;
+    padding-top: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+section#section_projet .projet p{
+    margin: 0rem 10rem 1.5rem;
+}
+
+.btn_collapse {
+    background-color: rgb(156, 156, 156);
+    width: 100%;
+    border: none;
+    margin: 1em 0;
+}
+
+.btn_collapse.active, .btn_collapse:hover{
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+}
+
+.projet {
+    display: none;
+    overflow: hidden;
+}

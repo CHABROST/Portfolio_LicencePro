@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Kaushan";
+    src: url(../asset/Kaushan/KaushanScript.otf) format("truetype");
+}
+
+section#whoIam {
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    margin: 2rem 35%;
+    border: 1px solid aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Kaushan";
+}
+
+form div{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form div div{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+form button#submit {
+    margin-bottom: 1rem;
+    width: max-content;
+}
+
+#reponseForm p{
+    padding: 10px 0;
+}

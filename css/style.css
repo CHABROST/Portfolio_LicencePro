@@ -1,0 +1,61 @@
+/* Commun à toute les pages */
+    html, body{
+        background-color: black;
+        color: aliceblue;
+        width: 100%;
+        height: 100%;
+        font-size: large;
+        overflow-x: hidden;
+        margin: 0 0;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: black;
+        z-index: 1;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-decoration: none;
+    }
+    header nav ul li{
+        font-weight: bold;
+        font-size: xx-large;
+        list-style: none;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color:blue;
+    }
+    header nav ul li a.selected{
+        color: red;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    h2{
+        font-size: x-large;
+        text-decoration: underline;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+/* "En-tête" commun au pages Présentation, projet et contact */
+    section.section_commun div.container{
+        width: 100%;
+        height: 100%;
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
